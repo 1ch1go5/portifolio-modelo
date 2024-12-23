@@ -1,0 +1,48 @@
+<style>
+      body {
+        font-family: arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background: white;
+        color: black;
+      }
+      header {
+        background: lightpink;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+      #portifolio {
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .imagens {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      figure {
+        text-align: center;
+        max-width: 300px;
+      }
+      img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      figcaption {
+        margin-top: 10px;
+        font-style: italic;
+        color: black;
+      }
+      a {
+        text-decoration: none;
+        color: yellow;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
