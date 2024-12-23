@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Meu portfólio</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background: white;
+        color: black;
+      }
+      header {
+        background: lightpink;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+      #portifolio {
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .imagens {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      figure {
+        text-align: center;
+        max-width: 300px;
+      }
+      img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      figcaption {
+        margin-top: 10px;
+        font-style: italic;
+        color: black;
+      }
+      a {
+        text-decoration: none;
+        color: yellow;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <header>
+      <h1>Bem vindo ao portfólio!</h1>
+    </header>
+    <section id="projetos">
+      <h2>Meus projetos</h2>
+      <hr>
+      <div class="imagens">
+        <figure>
+          <img src="x" alt="projeto 1">
+        </figure>
+        <figcaption>
+          <a href="projeto-detalhes.html"> Projeto 1: Site de E-commerce</a>
+        </figcaption>
+      </div>
+    </section>
+  </body>
+</html>
